@@ -1,9 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-static void Test(string name)
+static void Print(string name, int repeat)
 {
-    Console.WriteLine(name);
+    for (var i = 0; i < repeat; i++)
+    {
+        Console.WriteLine(name);
+    }
 }
 
-string name = "matthijs";
-Test(name: name);
+const int times = 5;
+const string name = "matthijs";
+Print(name: name, repeat: times);
