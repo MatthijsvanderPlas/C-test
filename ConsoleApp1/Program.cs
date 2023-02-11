@@ -2,6 +2,7 @@
 // Using all the classes from the ConsoleApp1 namespace
 using ConsoleApp1;
 
+
 static void Print(string name, int repeat)
 {
     for (var i = 0; i < repeat; i++)
@@ -21,3 +22,15 @@ Print(name: name, repeat: times);
 var result = Test.Sum(1,2);
 Console.WriteLine(result);
     
+double d1 = 3.1415;
+double d2 = 5.2;
+double dDiv = d1/d2;
+
+Console.WriteLine("d1 + d2 is " + dDiv);
+
+float f1 = 3.1415f;
+float f2 = 5.1f;
+float fDiv = f1 / f2;
+
+Console.WriteLine("f1 + f2 is " + fDiv);
+
